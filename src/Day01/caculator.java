@@ -1,3 +1,5 @@
+package Day01;
+
 import java.util.Scanner;
 
 public class caculator {
@@ -15,7 +17,7 @@ public class caculator {
         for (int i = a; i <= b; i++) {
             //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
             // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+            System.out.println("i =" + i);
             if (i % 2 == 1) {
                 sum = sum + i; //sum += i; }
             }
